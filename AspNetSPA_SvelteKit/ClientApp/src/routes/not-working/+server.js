@@ -1,4 +1,3 @@
-/** @type {import('./$types').PageLoad} */
 export async function GET(event) {
   const data = await event.fetch("/api/WeatherForecast")
     .then(data => data.json())
