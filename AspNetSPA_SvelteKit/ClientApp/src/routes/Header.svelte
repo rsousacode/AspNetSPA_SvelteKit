@@ -23,10 +23,13 @@
 				<a href="/about">About</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/working' ? 'page' : undefined}>
-				<a href="/working">Working</a>
+				<a href="/working">Fetch with full-path</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/not-working' ? 'page' : undefined}>
-				<a href="/not-working">Not Working</a>
+				<a href="/not-working">Fetch with relative-path</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/not-working' ? 'page' : undefined}>
+				<a href="/some-endpoint">Catch all</a>
 			</li>
 			
 		</ul>

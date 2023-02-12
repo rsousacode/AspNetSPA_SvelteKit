@@ -3,7 +3,6 @@
 
 export async function load({fetch, params}) {
   // Check if slug params exist
-  console.log(params)
   return await fetch("/api/WeatherForecast")
     .then(data => data.json())
     .then(data => {
