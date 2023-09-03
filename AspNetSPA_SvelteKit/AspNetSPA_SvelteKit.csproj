@@ -9,7 +9,7 @@
         <SpaRoot>ClientApp\</SpaRoot>
         <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
         <SpaProxyServerUrl>http://localhost:5173</SpaProxyServerUrl>
-        <SpaProxyLaunchCommand>vite dev</SpaProxyLaunchCommand>
+        <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
